@@ -196,20 +196,23 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 94px 15px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .logo {
   display: inline-block;
-  margin-right: 93px;
-  margin-top: 24px;
-  margin-bottom: 25px;
   width: 145px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
 }
 .item {
   margin-right: 30px;
 }
-.list-item {
+.nav-link {
+  display: inline-block;
   margin-right: 50px;
+  padding: 32px 0px;
 }
 ul {
   padding-left: 0;
@@ -222,17 +225,12 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
 }
-.nav-link {
-  padding: 0;
-}
 .navigation {
   width: 281px;
+  margin-right: 344px;
 }
 .address-links {
   flex-direction: column;
-}
-.top-page {
-  padding: 0 15px;
 }
 .cards {
   padding: 0;
@@ -250,46 +248,25 @@ ul {
 .buttons {
   display: flex;
   width: 575px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 50px;
+ margin: 0 auto;
+ margin-bottom: 50px;
 }
 .button {
-  align-items: center;
   margin-bottom: 0px;
   padding: 6px 22px;
   margin-right: 8px;
   border-radius: 4px;
 }
 .all {
-  width: 73px;
   padding: 6px 25px;
 }
-.web-sites {
-  width: 125px;
-}
-.apps {
-  width: 112px;
-}
-.design {
-  width: 103px;
-}
 .marketing {
-  width: 130px;
-}
-.buttons > .button {
-  padding: 0;
-  margin: 0;
-}
-.buttons:last-child {
   margin-right: 0;
-}
-.container.footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 .logo.address {
   margin-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .address-map,
 .address-phone,
@@ -298,11 +275,7 @@ ul {
   margin-bottom: 9px;
 }
 .card-title {
-  margin: 20px 24px 4px 24px;
-}
-.card-description {
-  margin: 0 24px 20px 24px;
-}
+  margin-bottom: 4px;}
 ul {
   display: flex;
 }
@@ -321,13 +294,7 @@ ul {
   text-align: center;
   margin-bottom: 30px;
 }
-.container.hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-.examples-work {
-  padding-top: 0;
-}
+.section.hero {padding-top: 200px; padding-bottom: 200px;}
 .work,
 .team {
   margin-bottom: 50px;
@@ -348,11 +315,9 @@ ul {
   margin-right: 0px;
 }
 .team-member {
-  margin: 30px 70px 10px 71px;
   white-space: nowrap;
 }
 .member-speciality {
-  margin: 0px 70px 30px 70px;
   white-space: nowrap;
 }
 .logo.address {
@@ -362,19 +327,6 @@ ul {
 .benefit-description {
   width: 270px;
 }
-.developer {
-  margin-right: 61px;
-  margin-left: 62px;
-}
-.marketolog {
-  margin-right: 97px;
-  margin-left: 97px;
-  width: 76px;
-}
-.designer {
-  margin-right: 91px;
-  margin-left: 92px;
-}
 .container.header {
   display: flex;
   padding: 0px 15px;
@@ -382,36 +334,39 @@ ul {
 nav {
   display: flex;
 }
-.navigation {
-  margin: 32px 344px 32px 0px;
-}
-.list-item:last-child {
+.contacts {
+  width: 64px;
   margin-right: 0px;
 }
-.mail-link {
-  margin: 32px 50px 32px 0px;
-}
-.phone-link {
-  margin: 32px 0px;
+.mail-link, .phone-link{ display: inline-block;
+  padding: 32px 0px;
 }
 .address-phone {
   margin-bottom: 0px;
 }
-.container.header {
+header {
   border-bottom: 1px solid #ececec;
 }
 .card-container {
   border: 1px solid #eeeeee;
   border-top-color: transparent;
+ padding: 20px 24px;
 }
 img {
   display: block;
 }
-.name {
-  margin-right: 62px;
-  margin-left: 63px;
+.section {padding-top: 94px; padding-bottom: 94px; margin: 0 auto;}
+.list-item {padding: 0;}
+.phone.link {margin-right: 0px;
+width: 122px;
+margin-left: auto;}
+.mail.link {margin-left: auto;}
+.item:last-child {margin-right: 0px;}
+.examples-work {
+  padding-top: 0;
 }
-.olga {
-  margin-left: 83px;
-  margin-right: 83px;
-}
+.worker-container {padding-top: 30px;
+padding-bottom: 30px;}
+.team-member {margin-bottom: 10px;}
+.footer-menu {padding-top: 60px; padding-bottom: 60px;}
+.web-sites {white-space: nowrap;}
