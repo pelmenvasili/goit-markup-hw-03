@@ -225,10 +225,6 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
 }
-.navigation {
-  width: 281px;
-  margin-right: 344px;
-}
 .address-links {
   flex-direction: column;
 }
