@@ -247,8 +247,7 @@ ul {
 }
 .buttons {
   display: flex;
-  width: 575px;
- margin: 0 auto;
+  justify-content: center;
  margin-bottom: 50px;
 }
 .button {
@@ -370,3 +369,4 @@ padding-bottom: 30px;}
 .team-member {margin-bottom: 10px;}
 .footer-menu {padding-top: 60px; padding-bottom: 60px;}
 .web-sites {white-space: nowrap;}
+.container-links {margin-left: auto;}
